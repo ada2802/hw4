@@ -72,6 +72,8 @@ The output of a Mapper or map job (key-value pairs) is input to the Reducer.
 The reducer receives the key-value pair from multiple map jobs.
 Then, the reducer aggregates those intermediate data tuples (intermediate key-value pair) into a smaller set of tuples or key-value pairs which is the final output.
 
+https://www.edureka.co/blog/mapreduce-tutorial/
+
 Unix command: 
 cat purchases.txt | ./mapper.py | sort | ./reducer.py
 
